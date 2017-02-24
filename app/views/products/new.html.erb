@@ -1,0 +1,27 @@
+      <section class="mainContent clearfix">
+        <div class="container">
+          <div class="row featuredCollection margin-bottom">
+            <div class="col-xs-12">
+              <%= form_for @product do |f| %>
+                <%= f.label :name %> <br />
+                <%= f.text_field :name %> <br />
+  
+                <%= f.label :category %> <br />
+                <%= f.text_field :category %> <br />
+  
+                <%= f.label :price %> <br />
+                <%= f.text_field :price %> <br />
+  
+                <%= f.label :description %> <br />
+                <%= f.text_field :description %> <br />
+  
+                <%= f.label :ingredient %> <br />
+                <%= f.text_field :ingredient %> <br />
+  
+                <%= f.submit %>
+
+              <% end %>
+            </div>
+          </div>
+        </div>
+      </section>

@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'products/index'
+
   get 'users/new'
 
   devise_for :users
