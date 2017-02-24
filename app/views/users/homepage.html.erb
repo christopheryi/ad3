@@ -1,0 +1,127 @@
+<!-- Half Slider -->
+<div id="myCarousel" class="carousel slide">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="" contenteditable="false"></li>
+    <li data-target="#myCarousel" data-slide-to="1" class="active" contenteditable="false"></li>
+    <li data-target="#myCarousel" data-slide-to="2" class="" contenteditable="false"></li>
+  </ol>
+  <div class="carousel-inner">
+
+        <div class="item active">
+            <%=image_tag("log8.jpg", alt: "Example Image")%>
+            <div class="carousel-caption">
+                <h2 class="">          </h4>
+
+                <p class="">
+                  
+                </p>
+            </div>
+        </div>
+
+    </div>    
+
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+
+
+</div>
+
+    <!-- MAIN CONTENT SECTION -->
+      <section class="mainContent clearfix">
+        <div class="container">
+          <div class="row featuredCollection margin-bottom">
+            <div class="col-xs-12">
+              <div class="page-header">
+                <h4>Featured Collection</h4>
+              </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+              <div class="thumbnail" onclick="location.href='single-product.html';">
+                <div class="imageWrapper">
+                  <%=image_tag("home/featured-collection/f1.jpg", alt: "Example Image")%>
+                  <div class="masking"><a href="product-grid-left-sidebar.html" class="btn viewBtn">View Products</a></div>
+                </div>
+                <div class="caption">
+                  <h4>Shampoos</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+              <div class="thumbnail" onclick="location.href='single-product.html';">
+                <div class="imageWrapper">
+                  <%=image_tag("home/featured-collection/f2.jpg", alt: "Example Image")%>
+                  <div class="masking"><a href="product-grid-left-sidebar.html" class="btn viewBtn">View Products</a></div>
+                </div>
+                <div class="caption">
+                  <h4>Moisturizers</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+              <div class="thumbnail" onclick="location.href='single-product.html';">
+                <div class="imageWrapper">
+                  <%=image_tag("home/featured-collection/f3.jpg", alt: "Example Image")%>
+
+                  <div class="masking"><a href="product-grid-left-sidebar.html" class="btn viewBtn">View Products</a></div>
+                </div>
+                <div class="caption">
+                  <h4>Total Sets</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+     
+          <div class="row latestArticles">
+            <div class="col-xs-12">
+              <div class="page-header">
+                <h4>Latest Articles</h4>
+              </div>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+              <div class="thumbnail">
+                <h5><a href="blog-single-right-sidebar.html">To Bang or Not to Bang</a></h5>
+                <span class="meta">July 16, 2016 by <a href="#">Abdus</a></span>
+                <a href="blog-single-right-sidebar.html"><%=image_tag("home/articles/a1.jpg", alt: "Example Image")%></a>
+                <div class="caption">
+                  <p>Nulla facilisi. Mauris efficitur, massa et iaculis accumsan, mauris velit ultrices purus, quis condimentum nibh dolor ut tortor.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+              <div class="thumbnail">
+                <h5><a href="blog-single-right-sidebar.html">Hair Loss Exam</a></h5>
+                <span class="meta">July 16, 2016 by <a href="#">Abdus</a></span>
+                <a href="blog-single-right-sidebar.html"><%=image_tag("home/articles/a2.jpg", alt: "Example Image")%></a>
+                <div class="caption">
+                  <p>Praesent dui felis, gravida a auctor at, facilisis commodo ipsum. Cras eu faucibus justo. Nullam varius cursus nisi.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+              <div class="thumbnail">
+                <h5><a href="blog-single-right-sidebar.html">Hair Health for Men ex</a></h5>
+                <span class="meta">July 16, 2016 by <a href="#">Abdus</a></span>
+                <a href="blog-single-right-sidebar.html"><%=image_tag("home/articles/a3.jpg", alt: "Example Image")%></a>
+                <div class="caption">
+                  <p>Etiam aliquam turpis quis blandit finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+              <div class="thumbnail">
+                <h5><a>All Extensions Are Not The Same</a></h5>
+                <span class="meta">July 16, 2016 by <a href="#">Abdus</a></span>
+                <a href="blog-single-right-sidebar.html"><%=image_tag("home/articles/a4.jpg", alt: "Example Image")%></a>
+                <div class="caption">
+                  <p>Suspendisse tristique interdum est, at hendrerit nunc laoreet et. Nulla vel arcu ac turpis pulvinar tincidunt eu eu nisi.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
