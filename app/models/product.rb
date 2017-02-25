@@ -1,6 +1,7 @@
 class Product < ActiveRecord::Base
-    
-    def ingredient_split(ingredients)
-      
-    end
+  mount_uploader :image, ImageUploader
+
+  def ingredient_split(ingredients)
+
+  end
 end
