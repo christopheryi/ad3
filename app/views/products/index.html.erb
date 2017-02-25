@@ -12,6 +12,7 @@
     Price: <%= product.price %><br />
     Description: <%= product.description %><br />
     Ingredients: <%= product.ingredient %><br />
+    Image: <%= product_image_tag(product, :headshot) %><br />
     | <%= link_to 'Edit', edit_product_path(product) %>
     | <%= link_to 'Delete', product, method: :delete %>|<br />
     <br />
